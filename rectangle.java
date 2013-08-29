@@ -8,6 +8,16 @@ class Rectangle {
 	height = h;
     }
 
+    //constructor with no arguments
+    Rectangle() {
+	setSize(10,20);
+    }
+
+    void setSize(int w, int h) {
+	width = w;
+	height = h;
+    }
+
     int getArea() {
 	return width * height;
     }
