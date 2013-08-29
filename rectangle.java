@@ -12,8 +12,7 @@ class Rectangle {
 
 public static voie main(String[] args) {
     Rectangle r = new Rectangle();
-    r.width = 123;
-    r.height = 45;
+    r.setSize(123,45);
 
     System.out.println("幅は" + r.width);
     Sytem.out.println("高さは" + r.height);
